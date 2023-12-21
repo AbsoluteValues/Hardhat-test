@@ -78,7 +78,7 @@ contract NewToken is IERC20 {
             }
 
             else {
-                revert("You have to send to whitelisted address");
+                revert("You have to send whitelisted address");
             }
         }
 
